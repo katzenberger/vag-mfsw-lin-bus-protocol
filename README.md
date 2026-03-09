@@ -9,7 +9,7 @@ Car models on which the measurements were performed:
 
 ## Measurement diagram
 
-<img width="479" height="687" alt="Measurement wiring diagram_v2" src="https://github.com/user-attachments/assets/59caafe6-fba2-49bb-b8e2-ffeb8faa9206" />
+<img width="479" height="687" alt="Measurement wiring diagram" src="/measurement_wiring_diagram.png" />
 
 ## Operation
 The steering column control electronics (1K0953549BP) receive a constant 12V supply. After the ignition is switched on, it periodically polls the steering wheel button control module (1P0959542) via the LIN bus, which is connected through a pass-through "clock spring" cable module (1K0959653C). The horn switch and the right/left steering wheel buttons are connected to the steering wheel button control module (1P0959542).
