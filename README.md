@@ -6,6 +6,10 @@ Car models on which the measurements were performed:
 
 - Škoda Octavia Mk2 (1Z, pre-facelift) 2004-2007
 - Seat Leon Mk2 (1P, pre-facelift) 2004-2008
+
+The goal of the project is to enable the steering wheel buttons to control an aftermarket head unit using a suitable data converter.
+
+There are vehicles, for example the Škoda Fabia Mk1, that were factory-equipped with the same steering wheel, but the MFSW option was not available for them and they did not include steering column control electronics. Therefore, the LIN bus control must be implemented using an external device.
 ## Skoda Octavia Steering wheel buttons
 ### With radio operation support only
 <img style="width:20%; height:auto;" alt="Octavia radio buttons" src="/assets/images/skoda_octavia_radio_buttons.png" />
