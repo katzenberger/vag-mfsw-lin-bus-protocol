@@ -202,3 +202,20 @@ Horn btn data: x x 0x00 0x04 0x00 x x
 ```
 > [!NOTE]
 > Horn + any button press is supported.
+## CAN bus data on the steering wheel control module's Comfort CAN
+baud: 100k
+
+### Buttons
+```
+ID: 5C1
+DLC: 1
+Data: one byte same as the LIN button data
+```
+### Horn
+```
+ID: 2C1
+DLC: 5
+data: 0x00 x x x x
+      ^
+      horn: 0x00 - horn not activated, 0x80 - horn activated
+```
